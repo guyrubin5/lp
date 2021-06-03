@@ -1,0 +1,431 @@
+{
+  "version": 2,
+  "scope": "inno",
+  "build": {
+    "env": {
+      "GATSBY_CAREERPATH_API": "https://careerpaths.ms.learningpeople.com/api/"
+    }
+  },
+  "routes": [
+    { "src": "/", "dest": "https://origin.learningpeople.com/" },
+    {
+      "src": "/uk/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2013/",
+      "status": 308,
+      "headers": {
+        "Location": "/uk/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2016/"
+      }
+    },
+    {
+      "src": "/au/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2013/",
+      "status": 308,
+      "headers": {
+        "Location": "/au/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2016/"
+      }
+    },
+
+    {
+      "src": "/uk/courses/accreditor/ux-design-institute/",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/au/courses/accreditor/ux-design-institute/",
+      "status": 308,
+      "headers": { "Location": "/au/" }
+    },
+    {
+      "src": "/uk/course/ux-design-institute/professional-diploma-in-ux-design/",
+      "status": 308,
+      "headers": { "Location": "/uk/courses/" }
+    },
+    {
+      "src": "/au/course/ux-design-institute/professional-diploma-in-ux-design/",
+      "status": 308,
+      "headers": { "Location": "/au/courses/" }
+    },
+    {
+      "src": "/uk/about/our-partners/ux-design-institute/",
+      "status": 308,
+      "headers": { "Location": "/uk/about/our-partners/" }
+    },
+    {
+      "src": "/au/about/our-partners/ux-design-institute/",
+      "status": 308,
+      "headers": { "Location": "/au/about/our-partners/" }
+    },
+    {
+      "src": "/uk/career/become-a-ux-professional/",
+      "status": 308,
+      "headers": { "Location": "/uk/career/" }
+    },
+    {
+      "src": "/au/career/become-a-ux-professional/",
+      "status": 308,
+      "headers": { "Location": "/au/career/" }
+    },
+    {
+      "src": "/uk/career/digital-selling/",
+      "status": 308,
+      "headers": { "Location": "/uk/career/digital-marketer/" }
+    },
+    {
+      "src": "/uk/studentcare/videos/",
+      "status": 308,
+      "headers": { "Location": "/uk/about/student-testimonial-videos/" }
+    },
+    {
+      "src": "/article_08.php",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/blog",
+      "status": 308,
+      "headers": { "Location": "https://blog.learningpeople.com/" }
+    },
+    { "src": "/blog/*", "status": 308, "headers": { "Location": "/uk/" } },
+    { "src": "/capm.html", "status": 308, "headers": { "Location": "/uk/" } },
+    {
+      "src": "/cdn-cgi/l/email-protection",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/course/code-institute1/Diploma-in-Tech-Fundamentals",
+      "status": 308,
+      "headers": {
+        "Location": "/uk/course/code-institute/diploma-in-tech-fundamentals/"
+      }
+    },
+    {
+      "src": "/course/code-institute1/full-stack-developer1",
+      "status": 308,
+      "headers": {
+        "Location": "/uk/course/code-institute/full-stack-developer/"
+      }
+    },
+    {
+      "src": "/courses/accreditor/code-institute1",
+      "status": 308,
+      "headers": { "Location": "/uk/courses/accreditor/code-institute/" }
+    },
+    {
+      "src": "/dist/media/javascr%e2%80%a6speed.ce.bE23WzwMKY.js",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/dist/media/javascr%e2%80%a6speed.ce.ZAasx3d9bv.js",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/dist/media/javascr%e2%80%a6speed.jm.2MzCSeqrBX.js",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/dist/media/javascr%e2%80%a6speed.jm.y4kD4pbFEy.js",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/dist/media/stylesh%e2%80%a6peed.cf.HV2uSor6op.css",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/dist/media/stylesh%e2%80%a6peed.cf.jZJbp7xihh.css",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/imgs/the-learning-people.svg",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/live/index.html",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/live/ov/ccent.html",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/oracle-training-courses",
+      "status": 308,
+      "headers": { "Location": "/uk/courses/accreditor/oracle/" }
+    },
+    { "src": "/pmi.html", "status": 308, "headers": { "Location": "/uk/" } },
+    {
+      "src": "/project-management-collections",
+      "status": 308,
+      "headers": { "Location": "/uk/" }
+    },
+    {
+      "src": "/project-management/offers/pmi",
+      "status": 308,
+      "headers": { "Location": "/uk/offers/project-management/pmi/" }
+    },
+    {
+      "src": "/team",
+      "status": 308,
+      "headers": { "Location": "/uk/about/team/" }
+    },
+    {
+      "src": "/about/our-partners/ec-council",
+      "status": 308,
+      "headers": { "Location": "/uk/courses/accreditor/ec-council/" }
+    },
+    {
+      "src": "/about/learning-performance-institute",
+      "status": 308,
+      "headers": {
+        "Location": "/uk/about/our-partners/lpi-learning-and-performance-institute/"
+      }
+    },
+    {
+      "src": "/offers/project-management/six-sigma",
+      "status": 308,
+      "headers": { "Location": "/uk/offers/project-management/pmi/" }
+    },
+    {
+      "src": "/uk/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2016/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/cisco-ccna-security/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/ccna-routing-switching/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/cisco-ccnp/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/oracle/oracle-oca-database-11g-administrator/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/oracle/oracle-ocp-database-11g-administrator/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/oracle/oracle-ocp-java-se6-programmer/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/ccdp-cisco-certified-design-professional/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/ccnp-security/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/cisco-ccda/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/ccna-wireless/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/cisco-ccna-voice/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/cisco/cisco-ccnp-voice/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/microsoft/mcsa-windows-7/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2010/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/microsoft/mcp-windows-7-configuring/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/microsoft/microsoft-office-2010-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/it-training-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/oracle/oracle-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/oracle/oracle-java-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/isc2/it-security-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/microsoft/microsoft-office-2013-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/uk/course/microsoft/microsoft-enterprise-solutions-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/uk/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2016/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/cisco-ccna-security/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/ccna-routing-switching/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/cisco-ccnp/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/oracle/oracle-oca-database-11g-administrator/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/oracle/oracle-ocp-database-11g-administrator/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/oracle/oracle-ocp-java-se6-programmer/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/ccdp-cisco-certified-design-professional/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/ccnp-security/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/cisco-ccda/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/ccna-wireless/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/cisco-ccna-voice/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/cisco/cisco-ccnp-voice/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/mcsa-windows-7/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2010/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/mcp-windows-7-configuring/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/microsoft-office-2010-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/it-training-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/oracle/oracle-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/oracle/oracle-java-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/isc2/it-security-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/microsoft-office-2013-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    {
+      "src": "/au/course/microsoft/microsoft-enterprise-solutions-knowledgecenter/",
+      "status": 308,
+      "headers": { "Location": "/au/discontinued-course/" }
+    },
+    { "handle": "filesystem" },
+    {
+      "src": "/(.*)",
+      "dest": "https://origin.learningpeople.com/$1"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.idea
+.cache
+public
+node_modules
+schema.json
+backup
+graphql.config.json
+schema.graphql
+.graphqlconfig
+.DS_Store
+yarn-error.log
+
+# dotenv environment variables file
+.env.development
+.env.*
+!.env.production

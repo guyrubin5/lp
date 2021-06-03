@@ -1,0 +1,78 @@
+# Redirect netlify default subdomain to main domain
+https://learningpeople.netlify.com/* https://www.learningpeople.com/:splat 301!
+http://learningpeople.netlify.com/* https://www.learningpeople.com/:splat 301!
+https://learningpeople.com/* https://www.learningpeople.com/:splat 301!
+http://learningpeople.com/* https://www.learningpeople.com/:splat 301!
+https://lp.server.inno.nl/* https://www.learningpeople.com/:splat 301!
+http://lp.server.inno.nl/* https://www.learningpeople.com/:splat 301!
+
+# Country redirects
+/ /au/ 302 Country=au,ap,as,bd,bt,bz,cn,cr,cx,fm,gt,gu,hk,hm,hn,id,io,jp,kg,kh,ki,kp,kr,la,mh,mm,mn,mo,mp,mx,my,nc,nf,ni,nr,nu,nz,pf,pg,ph,pn,pw,sb,sg,sv,th,tk,tl,to,tv,tw,um,va,vn,vu,wf,ws
+/ /uk/ 302
+
+# LP Requested redirects
+/uk/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2013/ /uk/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2016/
+/au/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2013/ /au/course/microsoft/microsoft-managing-projects-with-microsoft-office-project-2016/
+/uk/courses/accreditor/ux-design-institute/ /uk/
+/au/courses/accreditor/ux-design-institute/ /au/
+/uk/course/ux-design-institute/professional-diploma-in-ux-design/ /uk/courses/
+/au/course/ux-design-institute/professional-diploma-in-ux-design/ /au/courses/
+/uk/about/our-partners/ux-design-institute/ /uk/about/our-partners/
+/au/about/our-partners/ux-design-institute/ /au/about/our-partners/
+/uk/career/become-a-ux-professional/ /uk/career/
+/au/career/become-a-ux-professional/ /au/career/
+/uk/career/digital-selling/ /uk/career/digital-marketer/
+/uk/studentcare/videos/ /uk/about/student-testimonial-videos/
+
+# Booming rewrite rules .com
+/article_08.php /uk/
+/blog https://blog.learningpeople.com/
+/blog/* /uk/
+/capm.html /uk/
+/cdn-cgi/l/email-protection /uk/
+/course/code-institute1/Diploma-in-Tech-Fundamentals /uk/course/code-institute/diploma-in-tech-fundamentals/
+/course/code-institute1/full-stack-developer1 /uk/course/code-institute/full-stack-developer/
+/courses/accreditor/code-institute1 /uk/courses/accreditor/code-institute/
+/dist/media/javascr%e2%80%a6speed.ce.bE23WzwMKY.js /uk/
+/dist/media/javascr%e2%80%a6speed.ce.ZAasx3d9bv.js /uk/
+/dist/media/javascr%e2%80%a6speed.jm.2MzCSeqrBX.js /uk/
+/dist/media/javascr%e2%80%a6speed.jm.y4kD4pbFEy.js /uk/
+/dist/media/stylesh%e2%80%a6peed.cf.HV2uSor6op.css /uk/
+/dist/media/stylesh%e2%80%a6peed.cf.jZJbp7xihh.css /uk/
+/imgs/the-learning-people.svg /uk/
+/live/index.html /uk/
+/live/ov/ccent.html /uk/
+/oracle-training-courses /uk/courses/accreditor/oracle/
+/pmi.html /uk/
+/project-management-collections /uk/
+/project-management/offers/pmi /uk/offers/project-management/pmi/
+/team /uk/about/team/
+/about/our-partners/ec-council /uk/courses/accreditor/ec-council/
+/about/learning-performance-institute /uk/about/our-partners/lpi-learning-and-performance-institute/
+/offers/project-management/six-sigma /uk/offers/project-management/pmi/
+
+# Directories, these are catch all 301 to their parent if the file does not exist
+# Netlify makes sure it does not redirect existing files, they have precedence
+# These do not work as Netlify normalizes URLs making it look as if origin is the same as destination, ignoreing the rule
+#/uk/about/our-partners/* /uk/about/our-partners/ 301
+#/uk/career/* /uk/career/ 301
+#/uk/courses/* /uk/courses/ 301
+#/uk/course/* /uk/courses/ 301
+#/uk/studentcare/* /uk/studentcare/ 301
+#/uk/offers/* /uk/offers/ 301
+
+# Same for AU
+#/au/about/our-partners/* /au/about/our-partners/
+#/au/career/* /au/career/
+#/au/courses/* /au/courses/
+#/au/course/* /au/courses/
+#/au/studentcare/* /au/studentcare/
+#/au/offers/* /au/offers
+
+# Pass all unmatched (and not found) to origin server
+/* https://origin.learningpeople.com/:splat 200
+
+# 404 pages (these are not triggered as origin server sends 404)
+# /uk/* /uk/error/index.html 404
+# /au/* /au/error/index.html 404
+# /* /uk/error/index.html 404

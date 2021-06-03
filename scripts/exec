@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+docker exec -it lp-frontend sh
+
+# if [ $# -eq 0 ]
+# then
+#   docker exec -it lp-frontend sh
+#
+# else
+#   docker exec -it lp-frontend "$@"
+#
+# fi

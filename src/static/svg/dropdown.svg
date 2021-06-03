@@ -1,0 +1,15 @@
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1">
+        <g transform="translate(-358.000000, -103.000000)">
+            <g>
+                <g transform="translate(241.000000, 28.000000)">
+                    <g transform="translate(0.000000, 67.000000)">
+                        <g transform="translate(123.000000, 12.000000) rotate(90.000000) translate(-123.000000, -12.000000) translate(119.000000, 6.000000)">
+                            <path d="M6.70179966,5.52426332 L7.0125,5.858 L2.00625,11.24 L0,9.085 L3.2652188,5.57470635 L0.065625,2.135 L2.053125,-7.95807864e-13 L6.946875,5.261 L6.70179966,5.52426332 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

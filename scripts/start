@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+docker run -d --rm \
+  --name lp-frontend \
+  -p 8000:8000 -p 9000:9000 \
+  -e HTTP_PORT=9000 -e DEBUG=true \
+  lp-frontend \
+  /bin/bash -c "/app/hooker.mjs; /sbin/nginx-boot"
+
+
+# docker run -d --rm \
+#   --name lp-frontend \
+#   -p 8000:8000 -p 9000:9000 \
+#   -e HTTP_PORT=9000 -e DEBUG=true \
+#   lp-frontend /sbin/nginx-boot

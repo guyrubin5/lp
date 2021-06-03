@@ -1,0 +1,26 @@
+query {
+  all: allWordpressInnoThings(
+    filter: {
+      layout: {
+        eq: "courses"
+      }
+    }
+  ) {
+    edges {
+      node {
+        id: wordpress_id
+        title
+        link
+        language {
+          code
+        }
+        acf {
+          relationId: course_accreditor {
+            id: wordpress_id
+          }
+          summary: course_summary
+        }
+      }
+    }
+  }
+}

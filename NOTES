@@ -1,0 +1,47 @@
+GTM:
+Add facebook pixel ID in gatsby-ssr.js
+ - let gtmId = 'GTM-MFQN825'
+
+
+Adding a language:
+  - GraphQL queries in /gatsby-node.js /src/templates/post.js
+  - Currency in WP
+  - Global data like phone numbers
+  - GTM
+  - Add to toLanguageObject in gatsby-node.js
+  - Add if to gatsby-ssr for Optimize
+
+Hardcoded Text:
+  - components/menu/wrapper.js
+    * Search
+    * Get in touch
+    * 01273 907 919
+    * 0800 0141 311
+  - components/static/trustedBy.js
+    * Trusted By
+  - components/form.js
+    * Formulier
+  - components/blocks/featureList.js
+    * See more
+  - components/block/courseCategories.js
+    * Read more here
+
+
+StaticQueries:
+  - GenericBlock for linesBackground
+  - Footer for footer links
+  - TrustedBy for clients
+  - References for clients, partners and accreditors
+  - LatestNews for blog posts
+  - Menu for mega menu items
+  - AccreditedBy for partners and accreditors
+  - LogoList for partners and accreditors
+  - Accreditors (subItems) for accreditors
+  - Carreers (subItems) for carreers
+  - Courses (subItems) for courses
+  - Offers (subItems) for offers
+  - Pages (subItems) for pages
+
+Browser Testing
+  - 10: check
+  - 21: lp fix?
